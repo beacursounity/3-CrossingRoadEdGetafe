@@ -20,7 +20,7 @@ public class Arbol : MonoBehaviour {
     {
         // Debug.Log("TriggerEnter");
         explosion.Play();
-        Invoke("DestruirObjeto",1);
+        Invoke("DestruirObjeto" ,1);
 
     }
 

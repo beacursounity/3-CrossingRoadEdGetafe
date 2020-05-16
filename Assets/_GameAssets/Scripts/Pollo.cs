@@ -45,6 +45,7 @@ public class Pollo : MonoBehaviour
         {
             rb.AddForce(new Vector3(0, 1, -1) * fuerza);
         }
+        
 
     }
 
@@ -54,6 +55,7 @@ public class Pollo : MonoBehaviour
         // Si mis pies estan tocando
         // PARA SABER SI ESTOY EN EL SUELO PARA QUE NO SALTE MAS
         int layerIndex = LayerMask.GetMask("Terreno");
+        print(layerIndex);
         bool enSuelo = false;
         enSuelo = Physics.CheckSphere(
             posPies.position, distanciaDeteccion,

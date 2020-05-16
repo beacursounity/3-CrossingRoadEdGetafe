@@ -208,7 +208,6 @@ GameObject:
   - component: {fileID: 307455860}
   - component: {fileID: 307455861}
   - component: {fileID: 307455862}
-  - component: {fileID: 307455859}
   m_Layer: 0
   m_Name: Pollo
   m_TagString: Untagged
@@ -232,20 +231,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &307455859
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 307455857}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aa340ff366a1d914584243bef10a57da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  distanciaDeteccion: 0.1
-  fuerza: 100
-  posPies: {fileID: 1855436156}
 --- !u!114 &307455860
 MonoBehaviour:
   m_ObjectHideFlags: 0
