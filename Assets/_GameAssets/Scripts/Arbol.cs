@@ -10,12 +10,6 @@ public class Arbol : MonoBehaviour {
         explosion = GetComponent<AudioSource>();
 	}
 	
-	// Update is called once per frame
-	void Update () {
-		
-	}
-    
-
     private void OnTriggerEnter(Collider other)
     {
         // Debug.Log("TriggerEnter");
